@@ -1,4 +1,3 @@
-# book-notes
 Notes from books and other interesting things that I've read. Enjoy!
 
 ## Table of Contents
@@ -10,7 +9,8 @@ Completed notes from books that I've finished reading:
 ### Incomplete Notes
 
 Incomplete notes from books that I haven't yet finished reading:
-[The Object-Oriented Thought Process](the-object-oriented-thought-process.md)
+
+[The Object-Oriented Thought Process](the-object-oriented-thought-process.md) by Matt Weisfield
 
 ### Other Notes
 
