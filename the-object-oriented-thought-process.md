@@ -30,8 +30,7 @@ by Matt Weisfield
 
 - What are some benefits to switching to / using an OO model as opposed to structured?
 	- There is no such thing as global data in an OO model. Which means there is amost a guarantee of data integrity
-
-### Procedural Versus OO Programing
+- It is important in OO programing that one object does not change the attributes of another object. 
 
 ### Moving from Procedural to Object-Oriented Development
 
