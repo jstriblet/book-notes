@@ -61,18 +61,18 @@ by Matt Weisfield
 	- The behavior of an object outlines what an object can do.
 	- Getters and setters are methods on an object that regulate access to object attributes. 
 		- They are also called accessor and manipulators, respectivly 
-
 	- The unified modeling language is used to help visualize and manipulate class diagrams.
 
 ### What Exactly is a Class?
-
-#### Creating Objects
+	- Classes are what are used to create objects, they can be thought of as templates for how an object looks and functions.
+	** What is the difference between public and private members of a class? **
+	** What is an object message **
 
 #### Attributes
+	- public members can be accessed by any function or other object, while private members (attrubutes or methods) can only be accessed by the object itself.
 	
-#### Methods
-
 #### Messages
+	- Messages are typically how two objects communicate, generally, through methods. Object A will call a method on Object B and that is Object A's way of communicating and the return value of the method is the way Object B will communicate. 
 
 ### Using Class Diagrams as a Visual Tool
 
