@@ -17,14 +17,10 @@ by Matt Weisfield
 ### Objects and Legacy Systems
 
 **What Are the fundamental concepts of OO Programing?**
-
-	**What is an Object Wrapper?**
-
-	**What is an Object**
-
-	**What is the difference between procedural programing and OO programing?**
-
-	**What is the difference between procedural programing and OO programing?**
+**What is an Object Wrapper?**
+**What is an Object**
+**What is the difference between procedural programing and OO programing?**
+**What is the difference between procedural programing and OO programing?**
 
 	- OO programing and procedural (structured) programming are complementary to one another and should be used in conjunction with one another
 
@@ -45,11 +41,9 @@ by Matt Weisfield
 	- A good rule of thumb is to build small objects that do one task well as opposed to a large object that does many task.
 
 ### Moving from Procedural to Object-Oriented Development
-	** What is procedural programing? **
-
-	** What is the primary benifit to OO programing? **
-
-	** How is the state of the object represented? **
+**What is procedural programing?**
+**What is the primary benifit to OO programing?**
+**How is the state of the object represented?**
 
 #### Procedural Programing 
 	- procedural programing is the method of programing in which the data and the processes to manipulate that data are separated.
@@ -59,10 +53,8 @@ by Matt Weisfield
 	- An example of an object being sent over an network would be a webapp / page. Browsers does not know what the app will be before hand and relies on the object (HTML/Javascrip/CSS) to build and run itself
 
 ### What Exactly is an Object?
-
-	** What is a getter and setter? **
-
-	** What is UML (Unified Modeling Language) **
+**What is a getter and setter?**
+**What is UML (Unified Modeling Language)**
 
 #### Object Data 
 	- the data stored within an object represents the sate of the object. Also called the objects attributes.
@@ -76,9 +68,8 @@ by Matt Weisfield
 ### What Exactly is a Class?
 	- Classes are what are used to create objects, they can be thought of as templates for how an object looks and functions.
 
-	** What is the difference between public and private members of a class? **
-
-	** What is an object message **
+**What is the difference between public and private members of a class?**
+**What is an object message**
 
 #### Attributes
 	- public members can be accessed by any function or other object, while private members (attributes or methods) can only be accessed by the object itself.
@@ -90,10 +81,8 @@ by Matt Weisfield
 	- UML (Universal Modeling Language) is just a simple way to describe classes and object and how they interact with each other without being buried under the syntax of a particular language.
 
 ### Encapsulation and Data Hiding
-
-	** How is incapulation defined? **
-
-	** What is an interface? **
+**How is incapulation defined?**
+**What is an interface?**
 
 	- Encapsulation can be defined as the idea that objects contain (encapsulate) both their attributes and their methods / functions. With the intent that only the minimal number of which should be exposed to other objects.
 
@@ -101,44 +90,41 @@ by Matt Weisfield
 	- Interfaces are how objects interact with each other. Typically through methods. In good oo design, attributes should be private. Only the public attributes and methods are considered the interface.
 
 #### Implementations 
-	- Example of interface implementation  
-		- Toaster <--> Electrical Outlet <--> PowerPlant
-		- Object  <--> Interface         <--> Object
+- Example of interface implementation  
+	- Toaster <--> Electrical Outlet <--> PowerPlant
+	- Object  <--> Interface         <--> Object
 
-		- Square of a number:
+	- Square of a number:
 
-			``` Java 
-			public class IntSquare {
+``` Java 
+public class IntSquare {
 
-				// private attrubute
-				private int squareValue;
+	// private attrubute
+	private int squareValue;
 
-				// public interface
-				public intgetSquare (int value) {
+	// public interface
+	public intgetSquare (int value) {
 
-					SquareValue = calculateSquare(value);
+		SquareValue = calculateSquare(value);
 
-					return squareValue;
+		return squareValue;
 
-				}
+	}
 
-				// private implimentation
-				private intcalculatSquare (int value) {
-					
-					retrn value * value;
+	// private implimentation
+	private intcalculatSquare (int value) {
+		
+		retrn value * value;
 
-				}
-			}
-			```
+	}
+}
+```
 
 ### Inheritance
 
-	** What is inheritance? **
-
-	** What is a superclass? **
-
-	** What is abstraction? **
-
+**What is inheritance?**
+**What is a superclass?**
+**What is abstraction?**
 	- Inheritance is the ability of on class to inherit the attributes and methods of another class. 
 
 #### Superclasses and Subclasses
@@ -155,10 +141,8 @@ by Matt Weisfield
 
 ### Polymorphism
 
-	** What is Polymorphism? **
-
-	** What is a benefit of polymorphism? (when used togeether) **
-
+**What is Polymorphism?**
+**What is a benefit of polymorphism? (when used togeether)**
 	- Polymorphism can be described as a superclass having a public method available to interface with, but requires that a subclass define what the method does. For example, a shape superclass might have and abstract function for an interface called "getArea()" but the implementation of that function should be defined on the circle class, square class, or star class that inherits from the shape class.
 	- one benefit to inheritance and polymorphisms is that two different objects could be added to the same the stack if they inherit from the same superclass. Imagine the below has circle, square and star objects. we can reliably call the getArea() method on each.
 
@@ -171,14 +155,12 @@ by Matt Weisfield
 
 ### Composition
 
-	** What is Composition? **
-
+**What is Composition?**
 	- Composition is the idea that objects are built or made up of other objects. 
 
 #### Composition Abstraction
 
-	** What is abstraction? **
-
+**What is abstraction?**
 	- an object is built up of many other objects.
 
 #### Has-a Relationship
