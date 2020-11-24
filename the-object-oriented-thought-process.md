@@ -16,7 +16,7 @@ by Matt Weisfield
 
 ### Objects and Legacy Systems
 
-	**What Are the fundamental concepts of OO Programing?**
+**What Are the fundamental concepts of OO Programing?**
 
 	**What is an Object Wrapper?**
 
