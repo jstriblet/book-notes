@@ -69,34 +69,92 @@ by Matt Weisfield
 	** What is an object message **
 
 #### Attributes
-	- public members can be accessed by any function or other object, while private members (attrubutes or methods) can only be accessed by the object itself.
+	- public members can be accessed by any function or other object, while private members (attributes or methods) can only be accessed by the object itself.
 	
 #### Messages
-	- Messages are typically how two objects communicate, generally, through methods. Object A will call a method on Object B and that is Object A's way of communicating and the return value of the method is the way Object B will communicate. 
+	- Messages are typically how two objects communicate, generally, through methods. Object A will call a method on Object B and that is Object A's way of communicating and the return value of the method is the way Object B will communicate with A
 
 ### Using Class Diagrams as a Visual Tool
+	- UML (Universal Modeling Language) is just a simple way to describe classes and object and how they interact with each other without being buried under the syntax of a particular language.
 
 ### Encapsulation and Data Hiding
+	** How is incapulation defined? **
+	** What is an interface? **
+	- Encapsulation can be defined as the idea that objects contain (encapsulate) both their attributes and their methods / functions. With the intent that only the minimal number of which should be exposed to other objects.
 
 #### Interfaces
+	- Interfaces are how objects interact with each other. Typically through methods. In good oo design, attributes should be private. Only the public attributes and methods are considered the interface.
 
 #### Implementations 
+	- Example of interface implementation  
+		- Toaster <--> Electrical Outlet <--> PowerPlant
+		- Object  <--> Interface         <--> Object
+
+		- Square of a number:
+			``` Java 
+			public class IntSquare {
+
+				// private attrubute
+				private int squareValue;
+
+				// public interface
+				public intgetSquare (int value) {
+
+					SquareValue = calculateSquare(value);
+
+					return squareValue;
+
+				}
+
+				// private implimentation
+				private intcalculatSquare (int value) {
+					
+					retrn value * value;
+
+				}
+			}
+			```
 
 ### Inheritance
+	** What is inheritance? **
+	** What is a superclass? **
+	** What is abstraction? **
+	- Inheritance is the ability of on class to inherit the attributes and methods of another class. 
 
 #### Superclasses and Subclasses
+	- A super class is a class from which other classes inherit from, that usually contain attributes and methods that pertain to more than one subclass.
 
-#### Abstraction
+#### Inheritance Abstraction
+	- Abstraction is a large inheritance tree (more or less)
 
 #### Is-a Relationships
+	- A square "is a" shape
+	- A Circle "is a" shape
+	- A Star "is a " shape
+	- a BLANK "is a" type of BLANK
 
 ### Polymorphism
+	** What is Polymorphism? **
+	** What is a benefit of polymorphism? (when used togeether) **
+	- Polymorphism can be described as a superclass having a public method available to interface with, but requires that a subclass define what the method does. For example, a shape superclass might have and abstract function for an interface called "getArea()" but the implementation of that function should be defined on the circle class, square class, or star class that inherits from the shape class.
+	- one benefit to inheritance and polymorphisms is that two different objects could be added to the same the stack if they inherit from the same superclass. Imagine the below has circle, square and star objects. we can reliably call the getArea() method on each.
+			``` Java
+			while ( !stack.empty()) {
+				Shape shape = (Shape) stack.pop();
+				System.out.println ("Area = " + shape.getArea());
+			}
+			```
 
 ### Composition
+	** What is Composition? **
+	- Composition is the idea that objects are built or made up of other objects. 
 
-#### Abstraction
+#### Composition Abstraction
+	** What is abstraction? **
+	- an object is built up of many other objects.
 
 #### Has-a Relationship
+	- While inheritance is considered an is-a relationship, a composition relationship is termed a has-a relationship.
 
 
 
