@@ -170,3 +170,4 @@ public class IntSquare {
 
 ## Chapter 2: How to Think in Terms Of Objects 
 
+
