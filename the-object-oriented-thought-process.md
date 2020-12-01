@@ -146,12 +146,12 @@ public class IntSquare {
 	- Polymorphism can be described as a superclass having a public method available to interface with, but requires that a subclass define what the method does. For example, a shape superclass might have and abstract function for an interface called "getArea()" but the implementation of that function should be defined on the circle class, square class, or star class that inherits from the shape class.
 	- one benefit to inheritance and polymorphisms is that two different objects could be added to the same the stack if they inherit from the same superclass. Imagine the below has circle, square and star objects. we can reliably call the getArea() method on each.
 
-			``` Java
-			while ( !stack.empty()) {
-				Shape shape = (Shape) stack.pop();
-				System.out.println ("Area = " + shape.getArea());
-			}
-			```
+``` Java
+while ( !stack.empty()) {
+	Shape shape = (Shape) stack.pop();
+	System.out.println ("Area = " + shape.getArea());
+}
+```
 
 ### Composition
 
@@ -170,4 +170,20 @@ public class IntSquare {
 
 ## Chapter 2: How to Think in Terms Of Objects 
 
+### Knowing the Difference Between Interface and the Implementation
+**What is the difference between interface and implementation?**
+- An interface is what the user of your class or object can interact with while the implementation is the method and details by which which the class produces its returned value.
+- The interface should consistantly return what the user expects even if the implementation changes.
+- Implementation details should be kept hidden from the user
+- (user in this context is other designers and developers not nessessarily end users)
+- A change to the implemention should not require a change to the users code.
 
+### Using Abstact Thinking When Designing Interfaces
+
+### Prividing the Absolute Minimal User Interface Possible
+
+### Determining the Users
+
+### Identifying the Public Interfaces
+
+### Identifying the Implementation
