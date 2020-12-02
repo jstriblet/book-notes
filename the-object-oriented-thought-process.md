@@ -173,12 +173,20 @@ while ( !stack.empty()) {
 ### Knowing the Difference Between Interface and the Implementation
 **What is the difference between interface and implementation?**
 - An interface is what the user of your class or object can interact with while the implementation is the method and details by which which the class produces its returned value.
-- The interface should consistantly return what the user expects even if the implementation changes.
+- The interface should consistently return what the user expects even if the implementation changes.
 - Implementation details should be kept hidden from the user
-- (user in this context is other designers and developers not nessessarily end users)
-- A change to the implemention should not require a change to the users code.
+- (user in this context is other designers and developers not necessarily end users)
+- A change to the implementation should not require a change to the users code.
+**What is object persistence?**
+- Object persistence is the concept of saving the state of an object for later use.
 
-### Using Abstact Thinking When Designing Interfaces
+### Using Abstract Thinking When Designing Interfaces
+**What is one of the main advantages of using 00 programing?**
+- One of the main advantages of using OO programing is that classes can be reused. 
+**What is the difference between an abstract and concrete user inteface?**
+- Abstract interfaces are generally more usefull than concrete interfaces. Abstract interfaces tend to be more flexable and reuseable 
+	- think: asking a taxi to "take me to the airport" ( abstract ) vs. "turn left, turn right, turn left.... " ( concrete )
+	- I as the pasanger do not care about how the taxi gets me to the airport, just that is does.
 
 ### Prividing the Absolute Minimal User Interface Possible
 
