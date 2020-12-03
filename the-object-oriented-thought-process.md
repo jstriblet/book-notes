@@ -189,6 +189,10 @@ while ( !stack.empty()) {
 	- I as the pasanger do not care about how the taxi gets me to the airport, just that is does.
 
 ### Prividing the Absolute Minimal User Interface Possible
+- Provide as few interfaces as possible.
+- Its better to add interfaces later at requests rather than adding a bunch up front 
+- It is important to design the interface while taking the perspective of the end user
+- Do not try and design from the information systems stand point.
 
 ### Determining the Users
 
