@@ -194,10 +194,26 @@ while ( !stack.empty()) {
 - It is important to design the interface while taking the perspective of the end user
 - Do not try and design from the information systems stand point.
 
-### Determining the Users
+#### Determining the Users
+- Special care must be taken to ensure that all users of a particular class will be able to use the class. an iteritive approach to object design will be required and that is okay.
 
-### Identifying the Public Interfaces
+#### Identifying the Public Interfaces
+- A good analogy to help identify what interfaces should be public: 
+	- If we have an interface called enterTaxi(), we certainly do not want enterTaxi() to have logic in it to pay the cabbie. If we do this, not only is the design somewhat illogical, but there is virtually no way that a user of the class can tell what has to be done to pay the cabbie.
 
-### Identifying the Implementation
+#### Identifying the Implementation
+- The implimentation is the meat and potatoes of the object, ie the interior of the method that corresponds to the interface. The interface is how our users see and interact with the object.
 
+## Chapter 3: More Object-Oriented Concepts
 
+### Constructors
+
+### Error Handling
+
+### The Importance of Scope
+
+### Operator Overloading
+
+### Multiple Inheritance
+
+### Object Operations
