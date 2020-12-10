@@ -207,6 +207,25 @@ while ( !stack.empty()) {
 ## Chapter 3: More Object-Oriented Concepts
 
 ### Constructors
+**What are constructors?**
+- Constructors are used when initalizing an object from a class. they outline the initalizing attribues of the resulting object using the parameters (if any) that are passed into the the call to the class.
+- When a new object is created on the the first things that happens is that the constructor is called.
+- The code inside the constructor should set the object to its inital/safe/stable state.
+
+**What is the default constuctor and when is it called?**
+- regardless of if you as the programmer explicitly define a constructor. A constuctor is always called when a new object is instantiated, however the constructer that is called is named the "default constructor". usually, this default constructor only calls the supperclass of what ever programing language framework you are in, and then creates the object itself. This way, the "Object" class will be the parent class.
+
+```java
+public Cabbie() {
+	super();
+}
+```
+
+**What is overloading a method?**
+- Overloading a method is when you use the same method name more than once but the parameter list is different every time.
+
+**What is a method signature?**
+- A method signature is the name of the method along with the parameter list.
 
 ### Error Handling
 
