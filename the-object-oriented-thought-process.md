@@ -228,6 +228,18 @@ public Cabbie() {
 - A method signature is the name of the method along with the parameter list.
 
 ### Error Handling
+**What are four proposed ways errors can be handled?**
+
+- the four options are: 
+	- Ignore the problem. (bad)
+	- Check for potential problems and abort the program when one is found.
+	- Check for potential problems, fix the mistake, and attempt to fix the problem.
+	- Throw an exception.
+
+**What is an exception?**
+ 
+- An exception is a flag thrown by the program when an unexpected event occurred / error occurs. 
+	- If your program throws an exception, and cleanly catches it. it can still proceed without blowing up
 
 ### The Importance of Scope
 
