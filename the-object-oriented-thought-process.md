@@ -242,6 +242,11 @@ public Cabbie() {
 	- If your program throws an exception, and cleanly catches it. it can still proceed without blowing up
 
 ### The Importance of Scope
+**How many types of attributes are their?**
+- There are three types of attrubutes:
+	- Local Attributes - these are owned by a specific method
+	- Object Attributes - these are attribues that are decalred at the class level and unique for every object that is instantiated.
+	- Class Attributes - these are attributes that are delacred as static at the class level and is shared across every instance of object created from it. 
 
 ### Operator Overloading
 
