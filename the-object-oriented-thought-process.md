@@ -249,7 +249,9 @@ public Cabbie() {
 	- Class Attributes - these are attributes that are delacred as static at the class level and is shared across every instance of object created from it. 
 
 ### Operator Overloading
-
+**What is operator Overloading**
+- Operator Overloading is when you assign different functions to well know operators.
+	- for example: with strings the "+" symbol means to concatinate two independant strings into one string.
 
 ### Multiple Inheritance
 
