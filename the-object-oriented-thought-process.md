@@ -254,5 +254,11 @@ public Cabbie() {
 	- for example: with strings the "+" symbol means to concatinate two independant strings into one string.
 
 ### Multiple Inheritance
+**What is multiple inheritance?**
+- Multiple inheritance is when a class ingerits from more than one class.
+- not all programing languages allow for multiple ingeritance 
+	- For example: java, SWIFT and .NET do not allow for multiple inheritance and the designers decided the increased complexity outweighed the benifits.
 
 ### Object Operations
+**What is the diffrence between a shallow copy / shallow compairison as it relates to Objects?**
+- when making a shallow copy of an object, only the first level of the object and its references / pointers are coppied, not the additional objects that are pointed to / referenced by the inital object. siularly when compairing two objects you should take care to understand if the operation is compairing justs the surface level object and refereances or the entire object tree.
