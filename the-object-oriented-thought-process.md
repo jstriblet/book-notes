@@ -261,4 +261,27 @@ public Cabbie() {
 
 ### Object Operations
 **What is the diffrence between a shallow copy / shallow compairison as it relates to Objects?**
-- when making a shallow copy of an object, only the first level of the object and its references / pointers are coppied, not the additional objects that are pointed to / referenced by the inital object. siularly when compairing two objects you should take care to understand if the operation is compairing justs the surface level object and refereances or the entire object tree.
+- when making a shallow copy of an object, only the first level of the object and its references / pointers are coppied, not the additional objects that are pointed to / referenced by the inital object. siularly when compairing two objects you should take care to understand if the operation is compairing justs the surface level object and references or the entire object tree.
+
+## Chapter 4: The Anatomy of a Class
+
+### The Name of the Class
+**What important functions do the class name serve?**
+- The class name helps the user of the class determine its function as well as how it fits in the overall structure of the program.
+- The class name is also used whenever the class is instantiated.
+
+### Comments
+- It is important to remember that comments come in different flavors depending on the language: Multi-line and Single-line.
+
+### Attributes
+- Attributes are said to store the state of the object because at any given moment the object attributes represent the information that the object holds (It's state).
+- Remember, you should atempt to keep as many attributes private as possible.
+
+### Constructors
+
+### Accessors
+
+### Public Interface Methods
+
+### Private Implementation Methods
+
