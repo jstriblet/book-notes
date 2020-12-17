@@ -278,6 +278,7 @@ public Cabbie() {
 - Remember, you should atempt to keep as many attributes private as possible.
 
 ### Constructors
+- not coding a constructor / default constructor and relying on the constructor provided by the system is bad practice.
 
 ### Accessors
 
