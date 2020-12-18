@@ -287,7 +287,7 @@ public Cabbie() {
 - In short, getters and setters are used to ensure a level of data integerity and security.
 
 **What is a static attrubute or method?**
-- the keyword static indicates that memory a method or attribute is only allocated once across however many instances of an object are instanciated. ie if the an object is defined and has a static attribue, when making changes to that static attribute, all other objects that came from the same class will have that static attribute updated as well
+- the keyword static indicates that memory a method or attribute is only allocated once across however many instances of an object are instanciated. ie if the an object is defined and has a static attribute, when making changes to that static attribute, all other objects that came from the same class will have that static attribute updated as well
 
 ### Public Interface Methods
 - Methods that can be accessed or called by other classes/objects
@@ -295,4 +295,21 @@ public Cabbie() {
 ### Private Implementation Methods
 - Methods that can't be accessed or called by other classes/objects
 
-# Chapter 5: Class Design Guidelines
+## Chapter 5: Class Design Guidelines
+
+### Modeling Real-World Systems
+
+### Identifying the Public Interfaces
+
+### Designing Robust Constructors (and Perhaps Destructors)
+
+### Designing Error Handling into a Class
+
+### Designing with Reuse in Mind
+
+### Designing with Extensibility in Mind
+
+### Designing with Maintainability in Mind
+
+### Using Object Persistence
+
