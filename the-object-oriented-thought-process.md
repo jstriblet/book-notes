@@ -278,11 +278,21 @@ public Cabbie() {
 - Remember, you should atempt to keep as many attributes private as possible.
 
 ### Constructors
-- not coding a constructor / default constructor and relying on the constructor provided by the system is bad practice.
+- Not coding a constructor / default constructor and relying on the constructor provided by the system is bad practice.
 
 ### Accessors
+**What are accessor methods?**
+- Accessor methods, sometimes called getters and setters are public class methods that either change / update (set) or returns (gets) a classes attribute.
+- These are perferable to allowing direct access to class attributes themselves. it also narrows the scope if it turns out that a bug is tracked down to an errant value for an attribute
+- In short, getters and setters are used to ensure a level of data integerity and security.
+
+**What is a static attrubute or method?**
+- the keyword static indicates that memory a method or attribute is only allocated once across however many instances of an object are instanciated. ie if the an object is defined and has a static attribue, when making changes to that static attribute, all other objects that came from the same class will have that static attribute updated as well
 
 ### Public Interface Methods
+- Methods that can be accessed or called by other classes/objects
 
 ### Private Implementation Methods
+- Methods that can't be accessed or called by other classes/objects
 
+# Chapter 5: Class Design Guidelines
