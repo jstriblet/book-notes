@@ -296,6 +296,7 @@ public Cabbie() {
 - Methods that can't be accessed or called by other classes/objects
 
 ## Chapter 5: Class Design Guidelines
+- OO Programing is built on the idea that creating classes should model real life logical components
 
 ### Modeling Real-World Systems
 
@@ -312,4 +313,5 @@ public Cabbie() {
 ### Designing with Maintainability in Mind
 
 ### Using Object Persistence
+
 
