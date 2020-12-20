@@ -296,9 +296,10 @@ public Cabbie() {
 - Methods that can't be accessed or called by other classes/objects
 
 ## Chapter 5: Class Design Guidelines
-- OO Programing is built on the idea that creating classes should model real life logical components
+- OO Programing is built on the idea that creating classes should model real life logical components.
 
 ### Modeling Real-World Systems
+- One of the primary goals of object-oriented (OO) programming is to model real-world systems in ways similar to the ways in which people think.
 
 ### Identifying the Public Interfaces
 
