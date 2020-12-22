@@ -302,6 +302,10 @@ public Cabbie() {
 - One of the primary goals of object-oriented (OO) programming is to model real-world systems in ways similar to the ways in which people think.
 
 ### Identifying the Public Interfaces
+**What are the dangers of having an incomplete interface?**
+- the user will not be able to acomplish their goals and task.
+**What are the dangers of the class being not properly restricted?**
+- this can result in required debugging, system intergrity and security
 
 ### Designing Robust Constructors (and Perhaps Destructors)
 
