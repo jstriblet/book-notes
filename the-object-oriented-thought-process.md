@@ -306,8 +306,13 @@ public Cabbie() {
 - the user will not be able to acomplish their goals and task.
 **What are the dangers of the class being not properly restricted?**
 - this can result in required debugging, system intergrity and security
+- while the public interface should be designied with the user of the class in mind, the implementation should not involve the user at all.
 
 ### Designing Robust Constructors (and Perhaps Destructors)
+**What is constructor injection?**
+- constructor injection is when classes that are nessessarty for the proper function of a primary class get included in the primary classes constructor.
+**What is a memory leak?**
+- A memory leak is when the space that is allocated to the creation and activity of an object / variables, is not released when the object or variable is no longer in use and over time, while the application is still running, more and more system resources are depeleted and not able to be allocated to other programs that might be runnin on the system. This can lead to an unstable state and event lockup the system.
 
 ### Designing Error Handling into a Class
 
