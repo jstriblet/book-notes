@@ -312,16 +312,40 @@ public Cabbie() {
 **What is constructor injection?**
 - constructor injection is when classes that are nessessarty for the proper function of a primary class get included in the primary classes constructor.
 **What is a memory leak?**
-- A memory leak is when the space that is allocated to the creation and activity of an object / variables, is not released when the object or variable is no longer in use and over time, while the application is still running, more and more system resources are depeleted and not able to be allocated to other programs that might be runnin on the system. This can lead to an unstable state and event lockup the system.
+- A memory leak is when the space that is allocated to the creation and activity of an object / variables, is not released when the object or variable is no longer in use and over time, while the application is still running, more and more system resources are depeleted and not able to be allocated to other programs that might be running on the system. This can lead to an unstable state and event lockup the system.
 
 ### Designing Error Handling into a Class
+- The main purpose of error handling is to keep the program from crashing should an unexpected state be reached while running. When an error is encountered, the system should either fix itself and continue, or at a minimum, exit gracefully without losing any data that's important to the user.
+- Comments help you later understand what code is doing and also helps later programmers understand what your code is doing (try to write more comments)
 
 ### Designing with Reuse in Mind
+- Take care when starting to designing a class that you not only think of the immediate use cases for where you will be using your class, but also where in the future the class might be of use to someone else 
 
 ### Designing with Extensibility in Mind
+- Again, designing with the minimum interfaces in mind will help keep the class extensible and not too constrained / defined that other classes cant inherit from them.
+- Good naming - When someone reads a name, they should be able to tell what the object / variable represents. Make variables descriptive of their use, not encoded based on their type. Making names descriptive is good development practice that transcends the various development paradigms.
+- Do not put system dependent code into your primary class.
+- Keep the scope of the class as small as possible. The idea is to localize attributes and behaviors as much as possible.
 
 ### Designing with Maintainability in Mind
+**What is the best way to promote maintainability?**
+- One of the best ways to promote maintainability is to limit the interdependence of code fragments - meaning, changes made to one class have no impact to another class or as minimal impact as possible.
+- When classes are highly dependent on one another they are said to be highly coupled classes. The goal should be to strive for a low degree of coupling.
+
+**What are stubs?**
+- When developing the minimal interface it is okay to use hard coded return values in the implementation when testing that way the entire implementation does not have to be complete when sorting out how others will use your class. these temporary implimentation methods and variables are sometimes called "stubs"
 
 ### Using Object Persistence
+**What are the three primary storage devices to consider?**
+- Flat file system, Relationl database, NoSQL databaase (mongoDB, Cosmos DB).
+**What is serializing and Object?**
+- serializing is the process of descructring and object (flatten it out), send it over the wire, and then reconstructing it when recieved.
+**What is marshaling an object?**
+- Marshaling is the process of sending the object.
 
+## Chapter 6: Designing with Objects
+
+### Design Guidelines
+
+### Object Wrappers
 
