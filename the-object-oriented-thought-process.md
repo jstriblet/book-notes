@@ -119,7 +119,6 @@ public class IntSquare {
 	}
 }
 ```
-
 ### Inheritance
 
 **What is inheritance?**
@@ -165,8 +164,6 @@ while ( !stack.empty()) {
 
 #### Has-a Relationship
 	- While inheritance is considered an is-a relationship, a composition relationship is termed a has-a relationship.
-
-
 
 ## Chapter 2: How to Think in Terms Of Objects 
 
@@ -344,6 +341,7 @@ public Cabbie() {
 - Marshaling is the process of sending the object.
 
 ## Chapter 6: Designing with Objects
+- The same attention paid to design good objects should be paid to designing good systems.
 
 ### Design Guidelines
 
