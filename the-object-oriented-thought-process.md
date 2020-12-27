@@ -343,6 +343,7 @@ public Cabbie() {
 ## Chapter 6: Designing with Objects
 - The same attention paid to design good objects should be paid to designing good systems.
 
+
 ### Design Guidelines
 
 ### Object Wrappers
