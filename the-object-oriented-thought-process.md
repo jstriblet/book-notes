@@ -343,8 +343,16 @@ public Cabbie() {
 ## Chapter 6: Designing with Objects
 - The same attention paid to design good objects should be paid to designing good systems.
 
-
 ### Design Guidelines
+- Generally, a solid OO design process includes the following steps:
+	- Doing the proper analsis
+	- Developing a statement of work that describes the system
+	- Gathering the requirements from this statement of work
+	- Developing a prototype for the user interface
+	- Identifying the classes 
+	- Determining the responsibilities of each class
+	- Determining how the various classes interact with each other
+	- Creating a high-level model that describes the system to be built
 
 ### Object Wrappers
 
