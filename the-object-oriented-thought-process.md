@@ -345,10 +345,14 @@ public Cabbie() {
 
 ### Design Guidelines
 - Generally, a solid OO design process includes the following steps:
-	- Doing the proper analsis
-	- Developing a statement of work that describes the system
+	- Doing the proper analysis
+		- The primary focus of the analysis is for everyone to learn the system (both the old and proposed new) and determine the system requirements
+	- Developing a statement of work (SOW) that describes the system
+		- A document that describes the system. This shouold be a high level view of the desired outcomes of the project. One that anyone can pick up and and have a good understnding of what the project accomplishes.
 	- Gathering the requirements from this statement of work
+		- The requirements document is a distilled version of what is oulined in the statment of work. With enough detail to determine at the end of the project or protytyping that the required functionality has been implimented.
 	- Developing a prototype for the user interface
+		- A good way to ouline the look and feel of the desired outcomes without going through with the implimentationn details.
 	- Identifying the classes 
 	- Determining the responsibilities of each class
 	- Determining how the various classes interact with each other
