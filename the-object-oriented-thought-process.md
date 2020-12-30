@@ -335,6 +335,11 @@ public Cabbie() {
 ### Using Object Persistence
 **What are the three primary storage devices to consider?**
 - Flat file system, Relationl database, NoSQL databaase (mongoDB, Cosmos DB).
+	- NoSql database is good for projects that require:
+		- Unrelated, indeterminate, or evolving data requirements.
+		- Simpler or looser project objectives, able to start coding immediatly.
+		- Speed and scalability is imperitive.
+
 **What is serializing and Object?**
 - serializing is the process of descructring and object (flatten it out), send it over the wire, and then reconstructing it when recieved.
 **What is marshaling an object?**
