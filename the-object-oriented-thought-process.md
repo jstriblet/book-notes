@@ -359,6 +359,7 @@ public Cabbie() {
 	- Developing a prototype for the user interface
 		- A good way to ouline the look and feel of the desired outcomes without going through with the implimentationn details.
 	- Identifying the classes 
+		- A good way to identify what classes are needed is to look at the requiremetns documnet and identify all the nouns. 
 	- Determining the responsibilities of each class
 	- Determining how the various classes interact with each other
 	- Creating a high-level model that describes the system to be built
