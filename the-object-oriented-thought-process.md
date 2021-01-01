@@ -361,8 +361,11 @@ public Cabbie() {
 	- Identifying the classes 
 		- A good way to identify what classes are needed is to look at the requiremetns documnet and identify all the nouns. 
 	- Determining the responsibilities of each class
+		- You need to determine the responsibilities of EACH class you have identified.
 	- Determining how the various classes interact with each other
+		- Most classes interact with eachother by sending messages. you identify which classes have a close relationship and what those messaged should be.
 	- Creating a high-level model that describes the system to be built
+		- Use UML to lay out how the classes will interact with eachother.
 
 ### Object Wrappers
 
