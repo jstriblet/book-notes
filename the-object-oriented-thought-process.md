@@ -368,4 +368,18 @@ public Cabbie() {
 		- Use UML to lay out how the classes will interact with eachother.
 
 ### Object Wrappers
+**What is an object wrapper?**
+- An object wrapper is the construct of surrounding a structured code segment (sequence, conditions and iterations) into an object.
+- The code inside an object method can be considered "structured" code.
+- Both structured code and object oriented code can be wrapped.
+- The primary point for wrappers is to provide consistent interfaces for programmers that use the code later.
 
+## Chapter 7: Mastering Inheritance and Composition
+
+### Reusing Objects
+
+### Inheritance
+
+### Composition
+
+### Why Encapsulation is Fundamental to OO
