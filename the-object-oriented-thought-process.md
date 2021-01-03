@@ -375,6 +375,8 @@ public Cabbie() {
 - The primary point for wrappers is to provide consistent interfaces for programmers that use the code later.
 
 ## Chapter 7: Mastering Inheritance and Composition
+**What is ingeritance and compositon?/**
+- Inheritabnce involves inheriting attributes and behabiors from other classes, where there is a true parent / child relationship. The Child (or subclass) inherits directly from the parent (or superclass). Composition involves building objects by using other objects.
 
 ### Reusing Objects
 
