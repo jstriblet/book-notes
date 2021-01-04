@@ -355,9 +355,9 @@ public Cabbie() {
 	- Developing a statement of work (SOW) that describes the system
 		- A document that describes the system. This shouold be a high level view of the desired outcomes of the project. One that anyone can pick up and and have a good understnding of what the project accomplishes.
 	- Gathering the requirements from this statement of work
-		- The requirements document is a distilled version of what is oulined in the statment of work. With enough detail to determine at the end of the project or protytyping that the required functionality has been implimented.
+		- The requirements document is a distilled version of what is outline in the statment of work. With enough detail to determine at the end of the project or protytyping that the required functionality has been implimented.
 	- Developing a prototype for the user interface
-		- A good way to ouline the look and feel of the desired outcomes without going through with the implimentationn details.
+		- A good way to outline the look and feel of the desired outcomes without going through with the implimentationn details.
 	- Identifying the classes 
 		- A good way to identify what classes are needed is to look at the requiremetns documnet and identify all the nouns. 
 	- Determining the responsibilities of each class
@@ -379,6 +379,7 @@ public Cabbie() {
 - Inheritabnce involves inheriting attributes and behabiors from other classes, where there is a true parent / child relationship. The Child (or subclass) inherits directly from the parent (or superclass). Composition involves building objects by using other objects.
 
 ### Reusing Objects
+- The primary reason why inheritance and composition exists is object reuse. In short, you can build classes (which ultimatyly become objects) by utilizing other classes via inheritance and composition, which in effect are the only ways to reuse previously built classes.
 
 ### Inheritance
 
