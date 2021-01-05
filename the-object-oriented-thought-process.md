@@ -382,7 +382,11 @@ public Cabbie() {
 - The primary reason why inheritance and composition exists is object reuse. In short, you can build classes (which ultimatyly become objects) by utilizing other classes via inheritance and composition, which in effect are the only ways to reuse previously built classes.
 
 ### Inheritance
+- Inheritance follows a "is-a" relationship pattern.
+- A primary advantage for inheritance is that code for implementing a method only needs to be writen once and not everywhere the code is used. 
+- The general form of an inheritance tree is to go from general to more specific.
 
 ### Composition
+- Composition follows a "has-a" relationship pattern.
 
 ### Why Encapsulation is Fundamental to OO
