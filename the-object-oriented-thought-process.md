@@ -388,5 +388,6 @@ public Cabbie() {
 
 ### Composition
 - Composition follows a "has-a" relationship pattern.
+- Whenever a particular object is composed of other objects, and those objects are included as object fields, the object is know as a compound, aggreagste, or a composite object.
 
 ### Why Encapsulation is Fundamental to OO
