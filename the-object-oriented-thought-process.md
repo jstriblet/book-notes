@@ -391,3 +391,5 @@ public Cabbie() {
 - Whenever a particular object is composed of other objects, and those objects are included as object fields, the object is know as a compound, aggreagste, or a composite object.
 
 ### Why Encapsulation is Fundamental to OO
+- Encapsulation is the process of packaging your program, dividing each of its classes into two distinct parts: the interface and the implementation.
+
