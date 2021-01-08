@@ -392,4 +392,7 @@ public Cabbie() {
 
 ### Why Encapsulation is Fundamental to OO
 - Encapsulation is the process of packaging your program, dividing each of its classes into two distinct parts: the interface and the implementation.
+**How does inheritance weaken encapulation?**
+- Changing the implementation of a method or implemention of a method when a classes inherits it from its super class that change can have ripple effects across all objects that use that super class. This can have unintended conseequensces and so makes encapulation unstable and potentially buggy. 
+
 
