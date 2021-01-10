@@ -396,3 +396,4 @@ public Cabbie() {
 - Changing the implementation of a method or implemention of a method when a classes inherits it from its super class that change can have ripple effects across all objects that use that super class. This can have unintended conseequensces and so makes encapulation unstable and potentially buggy. 
 
 
+
