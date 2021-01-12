@@ -395,6 +395,11 @@ public Cabbie() {
 **How does inheritance weaken encapulation?**
 - Changing the implementation of a method or implemention of a method when a classes inherits it from its super class that change can have ripple effects across all objects that use that super class. This can have unintended conseequensces and so makes encapulation unstable and potentially buggy. 
 
+#### A Detailed Example of Polymorphism
 
+Many people consider polymorphism a cornerstone of OO design. Designing a class for the purpose of creating totally independent objects is what OO is all about. In a well-designed system, an object should be able to answer all the important questions about it. As a rule, an object should be responsible for itself. This independence is one of the primary mechanisms of code reuse. 
 
+As stated in Chapter 1, polymorphism literally means many shapes. When a message is sent to an object, the object must have a method defined to respond to that message. In an inheritance hierarchy, all subclasses inherit the interfaces from their superclass. However, because each subclass is a separate entity, each might require a separate response to the same message. 
+
+To review the example in Chapter 1, consider a class called Shape. This class has a behavior called Draw. However, when you tell somebody to draw a shape, the first question is likely to be, “What shape?” Simply telling a person to draw a shape is too abstract (in fact, the Draw method in Shape contains no implementation). You must specify which shape you mean. To do this, you provide the actual implementation in Circle and other subclasses. Even though Shape has a Draw method, Circle overrides this method and provides its own Draw method. Overriding basically means replacing an implementation of a parent with your own.
 
