@@ -405,4 +405,11 @@ To review the example in Chapter 1, consider a class called Shape. This class ha
 
 ## Chapter 8: Frameworks and Reuse: Designing with Interfaces and Abstract Classes
 
+### Code: To Reuse of Not to Reuse?
+
+### What Is a Framework?
+
+### What Is a Contract?
+
+### An E-Business Example
 
