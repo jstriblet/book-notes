@@ -341,7 +341,7 @@ public Cabbie() {
 		- Speed and scalability is imperitive.
 
 **What is serializing and Object?**
-- serializing is the process of descructring and object (flatten it out), send it over the wire, and then reconstructing it when recieved.
+- serializing is the process of descructring and object (flatten it out), send it over the wire, and then reconstructing it when received.
 **What is marshaling an object?**
 - Marshaling is the process of sending the object.
 
@@ -376,24 +376,24 @@ public Cabbie() {
 
 ## Chapter 7: Mastering Inheritance and Composition
 **What is ingeritance and compositon?/**
-- Inheritabnce involves inheriting attributes and behabiors from other classes, where there is a true parent / child relationship. The Child (or subclass) inherits directly from the parent (or superclass). Composition involves building objects by using other objects.
+- Inheritance involves inheriting attributes and behaviors from other classes, where there is a true parent / child relationship. The Child (or subclass) inherits directly from the parent (or superclass). Composition involves building objects by using other objects.
 
 ### Reusing Objects
-- The primary reason why inheritance and composition exists is object reuse. In short, you can build classes (which ultimatyly become objects) by utilizing other classes via inheritance and composition, which in effect are the only ways to reuse previously built classes.
+- The primary reason why inheritance and composition exists is object reuse. In short, you can build classes (which ultimately become objects) by utilizing other classes via inheritance and composition, which in effect are the only ways to reuse previously built classes.
 
 ### Inheritance
 - Inheritance follows a "is-a" relationship pattern.
-- A primary advantage for inheritance is that code for implementing a method only needs to be writen once and not everywhere the code is used. 
+- A primary advantage for inheritance is that code for implementing a method only needs to be written once and not everywhere the code is used. 
 - The general form of an inheritance tree is to go from general to more specific.
 
 ### Composition
 - Composition follows a "has-a" relationship pattern.
-- Whenever a particular object is composed of other objects, and those objects are included as object fields, the object is know as a compound, aggreagste, or a composite object.
+- Whenever a particular object is composed of other objects, and those objects are included as object fields, the object is know as a compound, aggregate, or a composite object.
 
 ### Why Encapsulation is Fundamental to OO
 - Encapsulation is the process of packaging your program, dividing each of its classes into two distinct parts: the interface and the implementation.
 **How does inheritance weaken encapulation?**
-- Changing the implementation of a method or implemention of a method when a classes inherits it from its super class that change can have ripple effects across all objects that use that super class. This can have unintended conseequensces and so makes encapulation unstable and potentially buggy. 
+- Changing the implementation of a method or implementation of a method when a classes inherits it from its super class that change can have ripple effects across all objects that use that super class. This can have unintended consequences and so makes encapsulation unstable and potentially buggy. 
 
 #### A Detailed Example of Polymorphism
 
@@ -403,4 +403,5 @@ As stated in Chapter 1, polymorphism literally means many shapes. When a message
 
 To review the example in Chapter 1, consider a class called Shape. This class has a behavior called Draw. However, when you tell somebody to draw a shape, the first question is likely to be, “What shape?” Simply telling a person to draw a shape is too abstract (in fact, the Draw method in Shape contains no implementation). You must specify which shape you mean. To do this, you provide the actual implementation in Circle and other subclasses. Even though Shape has a Draw method, Circle overrides this method and provides its own Draw method. Overriding basically means replacing an implementation of a parent with your own.
 
+## Chapter 8: Frameworks and Reuse: Designing with Interfaces and Abstract Classes
 
