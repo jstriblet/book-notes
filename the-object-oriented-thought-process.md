@@ -405,9 +405,8 @@ To review the example in Chapter 1, consider a class called Shape. This class ha
 
 ## Chapter 8: Frameworks and Reuse: Designing with Interfaces and Abstract Classes
 
-### Code: To Reuse of Not to Reuse?
-
 ### What Is a Framework?
+- A framework is a standard set of tools, principals, functions, etc.. that when utilized by a secondary ource enable code resuse that conforms to the rules defined by that framework.
 
 ### What Is a Contract?
 
