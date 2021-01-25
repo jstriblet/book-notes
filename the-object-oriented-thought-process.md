@@ -409,6 +409,7 @@ To review the example in Chapter 1, consider a class called Shape. This class ha
 - A framework is a standard set of tools, principals, functions, etc.. that when utilized by a secondary ource enable code resuse that conforms to the rules defined by that framework.
 
 ### What Is a Contract?
+- A contract is any mechanism that requires a developer to comply with the specifications of an API. Often an API is reffered to as a framework.
 
 ### An E-Business Example
 
